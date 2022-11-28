@@ -81,9 +81,9 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
-//Change URL to access to home web page localhost/3D-DAM
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] .'/3D-DAM');
-define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] .'/3D-DAM');
+//Change URL to access to home web page localhost/3D-DaM
+define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] .'/3D-DaM');
+define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] .'/3D-DaM');
 
 // Add custom type of file to upload
 define('ALLOW_UNFILTERED_UPLOADS', true);
